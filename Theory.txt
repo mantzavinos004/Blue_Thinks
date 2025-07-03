@@ -1,0 +1,65 @@
+The most important is CIA
+Confidenciality, ensures that the intended person can access the data
+Integrity, ensure that the data cannot be altered
+Availability, ensure the service is avaiable when needed
++
+Authenticity, ensuring that the file/doc is from claimed source
+Nonrepudaiation, ensures that the original source cannot deny that they are the source of a particular document/file/data
+
+
+The system is attacked through DAD
+Disclosure, is the opposite of confidentiality. 
+Alteration is the opposite of Integrity.
+Destruction/Denial is the opposite of Availability.
+
+Those are the Security Models:
+1) Bell-LaPadula Model
+Aims to confidentiality (like military, write up-read down)
+For file-sharing
+2) Biba Model
+Aims to integridy (read up, write down)
+Cant handle internal treats
+3) Clark-Wilson Model
+also aims integrity with CDI,UDI,TPs,IVPs
+
+Some more: 
+Brewer and Nash model
+Goguen-Meseguer model
+Sutherland model
+Graham-Denning model
+Harrison-Ruzzo-Ullman model
+
+
+Defence-in-Depth: refers to creating a security system of multiple levels (Multi-Level security)
+
+
+ISO/IEC 19249: International Organization for Standardization and the International Electrotechnical Commission.
+Five architectural principles:
+1) Domain Separation:  Every set of related components is grouped as a single entity.
+2) Layering: When a system is structured into many abstract levels or layers, it becomes possible to impose security policies at different levels; moreover, it would be feasible to validate the operation.
+3) Encapsulation:  In object-oriented programming (OOP), we hide low-level implementations and prevent direct manipulation of the data in an object by providing specific methods for that purpose
+4) Redundancy: This principle ensures availability and integrity. There are many examples related to redundancy. 
+5) Virtualization:  The concept of virtualization is sharing a single set of hardware among multiple operating systems.
+
+Also, five design principles:
+1) Least Privilege (who can access what?)
+2) Attack Surface Minimisation (For example, in one of the steps to harden a Linux system, we would disable any service we don’t need.)
+3) Centralized Parameter Validation (Invalid inputs can be used to exploit vulnerabilities in the system)
+4) centralized General Security Services (For example, we would create a centralized server for authentication.)
+5) Preparing for Error and Exception Handling (For instance, in a shopping application, a customer might try to place an order for an out-of-stock item)
+
+
+Trust but Verify: This principle teaches that we should always verify even when we trust an entity and its behaviour
+Zero Trust:  This principle treats trust as a vulnerability, and consequently, it caters to insider-related threats.
+
+
+
+Vulnerability: susceptible to attack or damage
+Threat: a potential danger associated with this weakness
+Risk: likelihood of a threat actor exploiting a vulneability
+
+
+
+
+
+

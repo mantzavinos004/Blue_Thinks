@@ -63,3 +63,10 @@ Risk: likelihood of a threat actor exploiting a vulneability
 
 
 
+------------------------------------------------------- SHERLOCKS THIGS ----------------------------------------
+1. http PROPFIND: 
+PROPFIND is used to retrieve properties (metadata) about a resource (like a file or directory) on a web server — not the content itself.
+PROPFIND is often used to enumerate files or directories on misconfigured servers, especially when directory listing is disabled.
+
+
+
